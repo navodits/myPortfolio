@@ -9,10 +9,11 @@ import About from "./components/Pages/About/About";
 import bgImage from "./assets/img/parallex/background.png";
 
 import "./App.css";
+import Skills from "./components/Pages/Skills/Skills";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="App" style={{ position: "relative" }}>
       <MyNavbar />
       <MyCarousel />
       <TitleHeadings />
@@ -29,6 +30,13 @@ const App = () => {
             </Fade>
           </Container>
         </Parallax>
+      </div>
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={500}>
+            <Skills />
+          </Fade>
+        </Container>
       </div>
     </div>
   );

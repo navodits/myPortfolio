@@ -25,10 +25,8 @@ const About = () => {
                 />
               </Row>
             </Col>
-            <Col xs={12} md={6}>
-              <Row className="align-items-start p-2 my-details rounded">
-                Hiiiiii, Its Me
-              </Row>
+            <Col className="my-details rounded" xs={12} md={6}>
+              <Row className="align-items-start p-2  ">Hiiiiii, Its Me</Row>
               <Row>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -55,7 +53,7 @@ const About = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Button className="m-2" variant="outline-light">
+                      <Button className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
