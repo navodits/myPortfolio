@@ -9,9 +9,9 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div id="home">
-      <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">About Me</h1>
+    <div id="about">
+      <div className="about pt-4 pb-4">
+        <h1 className="pt-1 text-center font-details pb-3">About Me</h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
@@ -26,7 +26,26 @@ const About = () => {
               </Row>
             </Col>
             <Col className="my-details rounded" xs={12} md={6}>
-              <Row className="align-items-start p-2  ">Hiiiiii, Its Me</Row>
+              <Row className="align-items-start p-2  ">
+                Hi there, I am <strong>&nbsp;Navdeep Singh Sokhal</strong>
+                <br />I am passionate about many things in life and one of those
+                things is programming. I Graduated from Simon Fraser University
+                in the fall of the unprecedented year 2020, with a Bachelor of
+                Science degree specialized in Software Systems. I am a Full
+                Stack Software Developer with React.js, React Native,
+                Express.js, Node.js, Django and MongoDB as my tech stack. Being
+                a recent graduate, my goal is to build my career in the field of
+                software development, learn as many skills and gain as much
+                knowledge as I can. I am passionate and dedicated to grow in my
+                career as well as in my life.
+                <br /> <br />
+                Apart from my studies and personal projects, I have been working
+                in the restaurant industry for more than 5 years and learned
+                many skills that will aid me in achieving my goal.
+                <br />I am an outdoorsy adventurous person who likes to get
+                along with people. Moreover, I enjoy giving my 100 percent
+                whether it is a fun activity or a challenging task at work.
+              </Row>
               <Row>
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
@@ -38,7 +57,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1KWdS5xQ1jLPTBnt-CpYV9otZAgXL6ogA/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -49,7 +68,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://github.com/akjha96"
+                      href="https://github.com/navodits"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -60,7 +79,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
+                      href="https://www.linkedin.com/in/navdeep-sokhal-2a7379133/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

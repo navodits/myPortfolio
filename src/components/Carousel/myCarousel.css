@@ -1,5 +1,9 @@
+.carousel {
+  background-color: white;
+}
+
 .custom-img {
   height: 100vh;
   object-fit: cover;
-  opacity: 0.9;
+  opacity: 0.77;
 }

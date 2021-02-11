@@ -13,7 +13,7 @@ const MyTitleHeading = styled.h1`
     font-size: 1.25em;
   }
   div {
-    color: rgb(0, 44, 139);
+    color: rgb(0, 0, 0);
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
@@ -42,9 +42,11 @@ const TitleHeadings = () => {
           <div>
             <Typewriter
               options={{
-                strings: ["Web/Mobile Developer", "Adventurer", "Learner"],
+                strings: ["Software Developer", "Adventurer", "Learner"],
                 autoStart: true,
                 loop: true,
+                delay: 35,
+                deleteSpeed: 35,
               }}
             />
           </div>
